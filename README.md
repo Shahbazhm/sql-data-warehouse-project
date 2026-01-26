@@ -76,5 +76,31 @@ Use SQL to answer real business questions, such as:
 These queries help turn raw data into **useful business insights.**
 More details can be found in the project documentation.
 
+## 📂 Repository Structure
+
+```
+data-warehouse-project/
+│
+├── datasets/            # Raw CSV files (ERP and CRM data)
+├── docs/                # Architecture diagrams and documentation
+│   ├── data_architecture.drawio
+│   ├── data_models.drawio
+│   ├── data_flow.drawio
+│   ├── data_catalog.md
+│   └── naming-conventions.md
+│
+├── scripts/             # SQL scripts
+│   ├── bronze/          # Raw data loading
+│   ├── silver/          # Data cleaning & transformation
+│   └── gold/            # Analytics-ready tables
+│
+├── tests/               # Data quality and validation scripts
+├── README.md            # Project overview
+├── LICENSE
+├── .gitignore
+└── requirements.txt
+```
+---
+
 
 
