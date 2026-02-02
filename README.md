@@ -9,18 +9,19 @@ If you are also learning data analytics, data engineering, or SQL, I hope this p
 
 ## 🏗️ Data Architecture (How the Data Is Organized)
 In this project, I followed a commonly used industry approach called **Medallion Architecture**, which has three layers:
-🥉 Bronze Layer
-•	This is where the raw data lives.
-•	Data is loaded **as-is** from CSV files into a SQL Server database.
-•	No cleaning or transformations are done at this stage.
-🥈 Silver Layer
-•	This layer focuses on **cleaning and improving data quality.**
-•	Tasks include fixing data types, handling missing values, and standardizing fields.
-•	The goal is to prepare the data for analysis.
-🥇 Gold Layer
-•	This is the **analytics-ready layer.**
-•	Data is modeled into **fact and dimension tables (star schema).**
-•	This layer is used for reporting, dashboards, and business insights.
+![Data Architecture](documents/data_architecture.png)
+### 🥉 Bronze Layer
+- This is where the raw data lives.
+- Data is loaded **as-is** from CSV files into a SQL Server database.
+- No cleaning or transformations are done at this stage.
+### 🥈 Silver Layer
+- This layer focuses on **cleaning and improving data quality.**
+- Tasks include fixing data types, handling missing values, and standardizing fields.
+- The goal is to prepare the data for analysis.
+### 🥇 Gold Layer
+- This is the **analytics-ready layer.**
+- Data is modeled into **fact and dimension tables (star schema).**
+- This layer is used for reporting, dashboards, and business insights.
 
 ---
 
