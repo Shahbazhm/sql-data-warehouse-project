@@ -102,6 +102,15 @@ data-warehouse-project/
 └── requirements.txt
 ```
 ---
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+---
+
+Let's stay in touch! Feel free to connect with me on:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shahbazhmirza)
 
 
 
